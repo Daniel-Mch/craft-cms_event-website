@@ -1,0 +1,19 @@
+columnSuffix: vluqhnci
+contentColumnType: string(160)
+fieldGroup: 2935fce3-fe40-480c-8ad2-d1203951d4a7 # Venue Fields
+handle: venueName
+instructions: 'Name fo the venue'
+name: venue-name
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: 40
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

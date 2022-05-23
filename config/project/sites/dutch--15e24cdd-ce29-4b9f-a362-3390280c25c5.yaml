@@ -1,0 +1,9 @@
+baseUrl: '@web/nl/'
+enabled: '1'
+handle: dutch
+hasUrls: true
+language: nl
+name: blog-nl
+primary: false
+siteGroup: 35377b3b-3225-4e98-99c7-1c66700fbcbe # Blog-site
+sortOrder: 2

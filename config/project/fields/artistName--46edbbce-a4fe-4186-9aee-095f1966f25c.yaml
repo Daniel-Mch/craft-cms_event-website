@@ -1,0 +1,19 @@
+columnSuffix: zzlrzjsa
+contentColumnType: string(160)
+fieldGroup: e05e52a9-4cfe-4f87-b6dd-b987efdeb6c9 # Artist Fields
+handle: artistName
+instructions: 'Artist name'
+name: artist-name
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: 40
+  code: false
+  columnType: null
+  initialRows: 1
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

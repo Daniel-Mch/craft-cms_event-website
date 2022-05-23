@@ -1,0 +1,137 @@
+fieldLayouts:
+  fa9c1858-4750-4f10-b291-ce23754b20ee:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: 'Name of the event for authors and developers'
+            label: 'Event name'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 58fb8545-74d8-4439-a638-023f08a974ed
+            warning: null
+            width: 100
+          -
+            fieldUid: 477456b6-a0ca-4c3a-ac4c-5ceefcc8c2f4 # event-name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 634ebbed-872e-45d1-8dfb-e4d53ebec698
+            warning: null
+            width: 100
+          -
+            fieldUid: 5eb3e4f5-1514-4461-a1cd-c39eea0754de # event-banner
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f3c598c5-9011-47dc-8bea-83f07b531202
+            warning: null
+            width: 100
+          -
+            fieldUid: 9a8e25a0-afac-43f2-a060-f9fc91a4be42 # event-summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8ac9c923-439a-4ffb-8a24-a417d4497311
+            warning: null
+            width: 100
+          -
+            fieldUid: bdea7dca-a6f4-4075-9812-d3a964bb2c59 # event-description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 25cc367d-8acf-4f58-8d32-a9e7b0b7a4a0
+            warning: null
+            width: 100
+          -
+            fieldUid: 0f820537-ee5c-4092-bef4-d779c88c7abe # event-date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1a43a54e-06a5-43c1-9a98-6bce978301f0
+            warning: null
+            width: 100
+          -
+            fieldUid: 59e52432-a2e7-4dab-b23d-68d11b956923 # event-price
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: da5c5baf-02ef-48b2-b770-5084ae1ca537
+            warning: null
+            width: 100
+          -
+            fieldUid: b35598d3-c590-45e3-8c21-0cb78dd9dfd7 # event-categories
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07656515-56e5-407c-9b52-ece4c4a8b14b
+            warning: null
+            width: 100
+        name: Content
+        uid: da2dfb90-93ca-4324-984a-82c44e41469a
+      -
+        elements:
+          -
+            fieldUid: a36c7a9d-8bfe-4480-9f1a-6610a743ef75 # venue-name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c4bfcdc9-5c44-4bc0-9eeb-0366e642d7e9
+            warning: null
+            width: 100
+        name: Venue
+        uid: 096791bb-b2a4-4b21-a2a6-a391493387b1
+      -
+        elements:
+          -
+            fieldUid: 46edbbce-a4fe-4186-9aee-095f1966f25c # artist-name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c55e859f-6e2c-4edf-9834-77d5c6ea07ee
+            warning: null
+            width: 100
+        name: Artists
+        uid: bc0f2181-3f86-4ec8-ad49-38c5d9437ec3
+handle: event
+hasTitleField: true
+name: Event
+section: 6d7ea6b2-856a-48a7-9abb-95e376d8fdb8 # Event
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,70 @@
+field: bdea7dca-a6f4-4075-9812-d3a964bb2c59 # event-description
+fieldLayouts:
+  159e9355-c7ba-44b5-b642-cec1f3f18240:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: e7099a59-f5c8-4981-89bf-569c399f8ddf # description image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f4b16b75-56d3-4913-8d3c-e17c5cb5cd34
+            warning: null
+            width: 100
+        name: Content
+        uid: 68ca5aa7-f2be-4d23-8ed8-0864df116447
+fields:
+  e7099a59-f5c8-4981-89bf-569c399f8ddf: # description image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: descriptionImage
+    instructions: 'You can add images to your description'
+    name: 'description image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:559fbead-f85f-4774-af3d-3b5dc613d934' # Event
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:559fbead-f85f-4774-af3d-3b5dc613d934' # Event
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: eventDescriptionImage
+name: event-description-image
+sortOrder: 2

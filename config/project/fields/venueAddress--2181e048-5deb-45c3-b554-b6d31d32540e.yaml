@@ -1,0 +1,19 @@
+columnSuffix: avzclidn
+contentColumnType: text
+fieldGroup: 2935fce3-fe40-480c-8ad2-d1203951d4a7 # Venue Fields
+handle: venueAddress
+instructions: 'Address of the venue'
+name: venue-address
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

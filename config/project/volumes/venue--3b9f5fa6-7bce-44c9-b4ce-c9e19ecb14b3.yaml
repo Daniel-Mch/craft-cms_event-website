@@ -1,0 +1,39 @@
+fieldLayouts:
+  3e654411-2cc3-4a5f-a923-8e92f4aba797:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: b1a9a72e-3e14-42f7-a5b3-ed84859dc6b6
+            warning: null
+            width: 100
+        name: Content
+        uid: f02ebed8-5e9a-41aa-b879-1cb0d1415b52
+fs: venue
+handle: venue
+name: Venue
+sortOrder: 7
+titleTranslationKeyFormat: null
+titleTranslationMethod: none
+transformFs: ''
+transformSubpath: ''

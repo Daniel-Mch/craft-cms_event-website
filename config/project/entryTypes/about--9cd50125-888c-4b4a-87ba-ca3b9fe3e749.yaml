@@ -4,6 +4,30 @@ fieldLayouts:
       -
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c1c0f358-130c-495d-ba16-8c762bd45ebb
+            warning: null
+            width: 100
+          -
             fieldUid: 124f479f-4c9f-4f89-934a-423e6702fe15 # About Image
             instructions: null
             label: null

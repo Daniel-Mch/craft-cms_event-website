@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: e05e52a9-4cfe-4f87-b6dd-b987efdeb6c9 # Artist Fields
+handle: artistBio
+instructions: 'Bio of the artist'
+name: artist-bio
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_artistbio}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

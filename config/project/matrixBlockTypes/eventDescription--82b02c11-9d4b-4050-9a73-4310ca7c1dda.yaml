@@ -1,0 +1,50 @@
+field: bdea7dca-a6f4-4075-9812-d3a964bb2c59 # event-description
+fieldLayouts:
+  33c69c64-33a0-41c6-b0c5-e4e5be44fceb:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4133a09f-5606-4193-8ecf-413e04a8ffba # description-text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ddd154d0-7fba-4bb7-aca8-71ea392bac5f
+            warning: null
+            width: 100
+        name: Content
+        uid: 9203dd8b-1150-4810-87a2-2896c5441cf2
+fields:
+  4133a09f-5606-4193-8ecf-413e04a8ffba: # description-text
+    columnSuffix: anxezrqh
+    contentColumnType: text
+    fieldGroup: null
+    handle: descriptionText
+    instructions: 'Event description'
+    name: description-text
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\redactor\Field
+handle: eventDescription
+name: event-description
+sortOrder: 1

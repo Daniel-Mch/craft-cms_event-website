@@ -1,0 +1,17 @@
+columnSuffix: mxstoijr
+contentColumnType: integer(10)
+fieldGroup: 18543997-cb5d-4a34-bc3d-f6c2aece0185 # Event fields
+handle: eventPrice
+instructions: null
+name: event-price
+searchable: false
+settings:
+  currency: EUR
+  defaultValue: 0
+  max: null
+  min: 0
+  showCurrency: true
+  size: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Money

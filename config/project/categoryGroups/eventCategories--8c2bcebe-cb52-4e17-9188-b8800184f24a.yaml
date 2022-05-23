@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  664ca23f-1ade-4389-b3a5-438fcaf724f3:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: f14a8fbd-a4e3-4057-87dd-9186491dd699
+            warning: null
+            width: 100
+        name: Content
+        uid: c197c6ec-ec79-4979-bdde-0d0305c59f46
+handle: eventCategories
+name: 'Event Categories'
+siteSettings:
+  15e24cdd-ce29-4b9f-a362-3390280c25c5: # blog-nl
+    hasUrls: true
+    template: event/_category
+    uriFormat: 'evenement-categorie/{slug}'
+  5868b6e2-0843-4f92-a1f3-16415121e6db: # blog-en
+    hasUrls: true
+    template: event/_category
+    uriFormat: 'event-categories/{slug}'
+structure:
+  maxLevels: 1
+  uid: e6c39806-a9ec-4665-8f7a-df4c9f31d482

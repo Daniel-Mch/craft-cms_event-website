@@ -1,8 +1,9 @@
 baseUrl: $PRIMARY_SITE_URL
+enabled: true
 handle: default
 hasUrls: true
 language: en
-name: Dan-macbook
+name: blog-en
 primary: true
-siteGroup: 35377b3b-3225-4e98-99c7-1c66700fbcbe # Dan-macbook
+siteGroup: 35377b3b-3225-4e98-99c7-1c66700fbcbe # Blog-site
 sortOrder: 1

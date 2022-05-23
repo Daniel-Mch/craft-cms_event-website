@@ -1,0 +1,42 @@
+field: 3a8fd138-ba51-4809-a6a9-0631219a8863 # artist-bio
+fieldLayouts:
+  33f2ad43-bb4b-4c41-bbd0-a4dcca4ae027:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4b6cae89-ceb5-414a-9fdc-da3a62bf3b57 # text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a9239900-773b-43b5-9428-8fd55e7b0f79
+            warning: null
+            width: 100
+        name: Content
+        uid: 2d03d32f-f07f-412b-9ca9-4aed2d56873b
+fields:
+  4b6cae89-ceb5-414a-9fdc-da3a62bf3b57: # text
+    columnSuffix: issmispf
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: 'Bio of the artist'
+    name: text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 1
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+handle: bioText
+name: bio-text
+sortOrder: 1

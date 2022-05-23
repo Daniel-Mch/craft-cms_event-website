@@ -1,0 +1,39 @@
+fieldLayouts:
+  6dbb83b5-2ce7-4209-a88a-6d128b406e63:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 9c1ac837-28df-4c55-b6e8-0116643b87ea
+            warning: null
+            width: 100
+        name: Content
+        uid: c69587a6-fc16-4ccb-88c7-756389b184a8
+fs: artist
+handle: artist
+name: Artist
+sortOrder: 6
+titleTranslationKeyFormat: null
+titleTranslationMethod: none
+transformFs: ''
+transformSubpath: ''

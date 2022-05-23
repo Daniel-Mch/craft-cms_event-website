@@ -1,0 +1,69 @@
+fieldLayouts:
+  dcd9b87a-c122-4a20-b3e2-08ed90822236:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4099aafb-2fab-4229-ad93-f95d16e6beab
+            warning: null
+            width: 100
+          -
+            fieldUid: 46edbbce-a4fe-4186-9aee-095f1966f25c # artist-name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6052871d-5833-4f97-a6b0-a06bee2fa18a
+            warning: null
+            width: 100
+          -
+            fieldUid: 3a8fd138-ba51-4809-a6a9-0631219a8863 # artist-bio
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b79a96bd-5552-41c0-8e10-123fb85153d5
+            warning: null
+            width: 100
+          -
+            fieldUid: 25f3fb8a-6c53-495c-a1b4-ed523bdaeeef # artist-picture
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 11ee7fce-c96e-4570-9aff-1ab5c770cb99
+            warning: null
+            width: 100
+        name: Content
+        uid: edac872b-45b0-45dc-9aa7-937ffcead9e6
+handle: Artist
+hasTitleField: true
+name: Artist
+section: f5f1c4e5-f1d3-4a47-bd1c-fb5fa8ca2d52 # Artist
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: none

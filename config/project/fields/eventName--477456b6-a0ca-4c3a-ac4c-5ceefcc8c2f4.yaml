@@ -1,0 +1,19 @@
+columnSuffix: twihftbd
+contentColumnType: string(240)
+fieldGroup: 18543997-cb5d-4a34-bc3d-f6c2aece0185 # Event fields
+handle: eventName
+instructions: 'This will be the name of your event'
+name: event-name
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: 60
+  code: false
+  columnType: null
+  initialRows: 1
+  multiline: true
+  placeholder: 'Your event''s name'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

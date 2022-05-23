@@ -1,0 +1,19 @@
+columnSuffix: dcahgjsp
+contentColumnType: string(560)
+fieldGroup: 18543997-cb5d-4a34-bc3d-f6c2aece0185 # Event fields
+handle: eventSummary
+instructions: 'Enter a brief, one or two-sentence summary of the event.'
+name: event-summary
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: 140
+  code: false
+  columnType: null
+  initialRows: 1
+  multiline: true
+  placeholder: 'Event summary'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

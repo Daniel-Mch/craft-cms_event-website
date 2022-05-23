@@ -1,0 +1,69 @@
+fieldLayouts:
+  a52291ad-b942-4b20-ad5c-0b0ad847ab40:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ab732c62-48f3-457e-93aa-eb020f5b0f37
+            warning: null
+            width: 100
+          -
+            fieldUid: a36c7a9d-8bfe-4480-9f1a-6610a743ef75 # venue-name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 30027f1a-003e-49c5-b99c-684612ef6304
+            warning: null
+            width: 100
+          -
+            fieldUid: 2181e048-5deb-45c3-b554-b6d31d32540e # venue-address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 843efe4d-1b37-43e4-b4fb-736123ccca0b
+            warning: null
+            width: 100
+          -
+            fieldUid: 5b3eb088-92c1-4955-ad23-90c971a631d1 # venue-image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0f333146-4987-4bb1-ae9e-4556384d19c5
+            warning: null
+            width: 100
+        name: Content
+        uid: 4238305d-9c98-468c-b142-afbe72c197e7
+handle: venue
+hasTitleField: true
+name: venue
+section: 3c60082e-c3d2-4357-b88a-e9f187efede6 # Venue
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: none
