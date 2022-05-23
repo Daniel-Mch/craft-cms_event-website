@@ -1,0 +1,63 @@
+dateModified: 1653294896
+email:
+  fromEmail: danielsaso@gmail.com
+  fromName: Dan-macbook
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  blog:
+    hasUrls: true
+    name: Blog
+    settings:
+      path: '@webroot/assets/blog'
+    type: craft\fs\Local
+    url: '@web/assets/blog'
+  general:
+    hasUrls: true
+    name: General
+    settings:
+      path: '@webroot/assets/general'
+    type: craft\fs\Local
+    url: '@webroot/assets/general'
+meta:
+  __names__:
+    3dcf0e1c-776e-49f5-adf8-c81fc3071c1c: 'Global Fields' # Global Fields
+    3e54d30c-8ad9-4386-9f8e-b5e7f34ba7f9: Blog # Blog
+    5bc3f0c4-aab4-48e3-9ec6-b780afc462df: Common # Common
+    6ec664e3-5ae7-477f-afc3-fcbfe948005f: 'Site Information' # Site Information
+    7cd2537c-0aa7-46de-87fe-0785241331ec: Image # Image
+    7e1b327d-1b82-4766-969b-7d69e4f26200: Text # Text
+    8e418cb9-3bae-4827-bcf4-b806c3689a4b: General # General
+    9cd50125-888c-4b4a-87ba-ca3b9fe3e749: About # About
+    9dfd6e01-d3ee-4b8e-95b4-0de2f24ff887: About # About
+    13f85ac3-69bb-4927-b83d-6a808050c78a: Blog # Blog
+    80dd8962-0161-4303-ba5e-bedbdc712424: 'Post Categories' # Post Categories
+    124f479f-4c9f-4f89-934a-423e6702fe15: 'About Image' # About Image
+    963c261f-a716-494f-965e-476b5a9e6705: 'Post Content' # Post Content
+    5130a23c-2daf-4b1e-a9e8-af868f4e0e90: 'Feature Image' # Feature Image
+    5868b6e2-0843-4f92-a1f3-16415121e6db: Dan-macbook # Dan-macbook
+    35377b3b-3225-4e98-99c7-1c66700fbcbe: Dan-macbook # Dan-macbook
+    b8832bf5-cf9b-4224-bf44-bdc3723bd3b5: 'Site Description' # Site Description
+    ba7f9ec4-676a-417b-a110-e00cde4b5b69: 'Blog Post Fields' # Blog Post Fields
+    d3f5ed75-a04a-4ac5-b281-1dcb82bdf1ed: Summary # Summary
+    d8e99ab1-a533-416d-b4db-94a295d205d0: Blog # Blog
+    d7369301-3bb7-4cef-aeaa-7e34fc1ddd67: 'Blog Categories' # Blog Categories
+    ddf3a511-6ee4-4a66-b6ac-b8b1f0b1ab83: Image # Image
+    e2c6b25b-a2c7-4779-a9ff-5418def4e067: 'Singles Fields' # Singles Fields
+    edde5f30-ef1d-4b91-a16a-b2e6ed53be94: Text # Text
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: Dan-macbook
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

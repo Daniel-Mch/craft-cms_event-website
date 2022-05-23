@@ -1,0 +1,70 @@
+field: 963c261f-a716-494f-965e-476b5a9e6705 # Post Content
+fieldLayouts:
+  d75eccec-611a-4c88-ac90-70daa86ec8d2:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 7cd2537c-0aa7-46de-87fe-0785241331ec # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ea56755-80d4-4e2f-b00b-d5d79651f64d
+            warning: null
+            width: 100
+        name: Content
+        uid: aa162d0e-4431-446e-a99d-3d1893e64224
+fields:
+  7cd2537c-0aa7-46de-87fe-0785241331ec: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:3e54d30c-8ad9-4386-9f8e-b5e7f34ba7f9' # Blog
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:3e54d30c-8ad9-4386-9f8e-b5e7f34ba7f9' # Blog
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: Image
+sortOrder: 2

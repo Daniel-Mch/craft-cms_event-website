@@ -1,0 +1,39 @@
+fieldLayouts:
+  00df6f21-b48d-4c09-9daa-94a3147ca91e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 00a242ae-d544-4511-a544-1003001c5857
+            warning: null
+            width: 100
+        name: Content
+        uid: 1fe0b79a-230d-4bf6-afbe-0c4719aa2739
+fs: blog
+handle: blog
+name: Blog
+sortOrder: 1
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

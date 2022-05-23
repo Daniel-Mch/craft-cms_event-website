@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: Dan-macbook
+primary: true
+siteGroup: 35377b3b-3225-4e98-99c7-1c66700fbcbe # Dan-macbook
+sortOrder: 1

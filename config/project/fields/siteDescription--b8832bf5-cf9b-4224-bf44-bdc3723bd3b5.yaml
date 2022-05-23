@@ -1,0 +1,19 @@
+columnSuffix: hzcgfzzm
+contentColumnType: text
+fieldGroup: 3dcf0e1c-776e-49f5-adf8-c81fc3071c1c # Global Fields
+handle: siteDescription
+instructions: null
+name: 'Site Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

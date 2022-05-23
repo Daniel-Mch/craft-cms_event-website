@@ -1,0 +1,36 @@
+{% extends "_layout.twig" %}
+
+{% set featureImage = {
+  mode: 'crop',
+  quality: 90
+} %}
+
+
+{% block content %}
+	<h1 class="text-4xl text-black font-display my-4">{{ entry.title }}</h1>
+
+	<time class="text-sm block pb-4" datetime="{{ entry.postDate | date('Y-m-d') }}">{{ entry.postDate | date('d M Y') }}</time>
+
+
+	{% if entry.featureImage|length %}
+		{% for image in entry.featureImage.all() %}
+			<img src="{{ image.url }}" alt="{{ image.title }}"/>
+		{% endfor %}
+	{% endif %}
+
+	<div class="my-8">
+		{% for block in entry.postContent.all() %}
+			<div class="my-4">
+				{% if block.type == 'text' %}
+					{{ block.text }}
+				{% elseif block.type == 'image' %}
+					{% for image in block.image.all() %}
+						<img src="{{ image.url }}" alt="{{ image.title }}"/>
+					{% endfor %}
+				{% endif %}
+			</div>
+		{% endfor %}
+	</div>
+
+
+{% endblock %}
