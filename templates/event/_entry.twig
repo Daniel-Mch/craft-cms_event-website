@@ -6,21 +6,33 @@
 } %}
 
 {% block content %}
-<h1 class="text-4xl text-black font-display my-4">{{ entry.title }}</h1>
 
+<h1 class="text-4xl text-black font-display my-3">{{ entry.title }}</h1>
 <time class="text-sm block pb-4" datetime="{{ entry.postDate | date('Y-m-d') }}">{{ entry.postDate | date('d M Y') }}</time>
+
+<h2 class="text-2xl text-black font-display my-3">Summary</h2>
 <p>{{ entry.eventSummary }}</p>
 
-<h1 class="text-2xl text-black font-display my-4">Artists</h1>
-
+<h2 class="text-2xl text-black font-display my-3">Artists</h2>
 <ul>
   {% for artist in entry.eventArtists.all() %}
-    <li>- {{ artist.title }}</li>
+    <li>-{{ artist.title }}</li>
   {% endfor %}
 </ul>
 
-<p>{{ entry.price }}</p>
+{% set price = entry.eventPrice|money %}
+<p class="mt-5">Event price: {{ price }}</p>
+<p>Service Fee <em>(10%)</em>: {{ serviceFeeFunction(entry.eventPrice)}}</p>
 
-<p>{{ someFunction('something') }}</p>
+<h2 class="text-2xl text-black font-display my-3">Event genres</h2>
+
+{% set genres = genresCollectionFunction(entry)%}
+
+<ul>
+{% for genre in genres %}
+  <li>{{genre.title}}</li>
+{% endfor %}
+</ul>
+
 
 {% endblock %}

@@ -10,13 +10,13 @@
 
 namespace modules\danielmodule\twigextensions;
 
-use modules\danielmodule\DanielModule;
 
 use Craft;
 
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
 use Twig\TwigFunction;
+use NumberFormatter;
 
 /**
  * Twig can be extended in many ways; you can add extra tags, filters, tests, operators,
@@ -68,7 +68,8 @@ class DanielModuleTwigExtension extends AbstractExtension
     public function getFunctions()
     {
         return [
-            new TwigFunction('someFunction', [$this, 'someInternalFunction']),
+            new TwigFunction('serviceFeeFunction', [$this, 'serviceFeeInternalFunction']),
+            new TwigFunction('genresCollectionFunction', [$this, 'genresCollectionInternalFunction'])
         ];
     }
 
@@ -79,10 +80,30 @@ class DanielModuleTwigExtension extends AbstractExtension
      *
      * @return string
      */
-    public function someInternalFunction($text = null)
-    {
-        $result = $text . " in the way";
 
-        return $result;
+    // --- Function to return serviceFee for event price formatted in Euros ---
+    public function serviceFeeInternalFunction($price = null)
+    {
+      $price = $price->getAmount() / 100; // Convert price to a float from cents to euros
+      $servicePercentage = 0.10; // is 10%. TODO: Add a field for service percentage.
+      $serviceFee = $price * $servicePercentage;
+      $fmt = new NumberFormatter('nl_NL', NumberFormatter::CURRENCY);
+      return $fmt->formatCurrency($serviceFee, "EUR");
     }
-}
+
+    // --- Function to return array of unique genres from the event artists ---
+    public function genresCollectionInternalFunction($event = null)
+    {
+      $genres = [];
+      $artists = $event
+      ->eventArtists
+        ->with(['artistGenre'])
+        ->all();
+      forEach ($artists as $artist) {
+        forEach ($artist->artistGenre as $genre) {
+          array_push($genres, $genre );
+        }
+      }
+      return array_unique($genres);
+    }
+  }
