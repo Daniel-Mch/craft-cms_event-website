@@ -95,13 +95,15 @@ class DanielModuleTwigExtension extends AbstractExtension
     public function genresCollectionInternalFunction($event = null)
     {
       $genres = [];
+
       $artists = $event
       ->eventArtists
         ->with(['artistGenre'])
         ->all();
-      forEach ($artists as $artist) {
-        forEach ($artist->artistGenre as $genre) {
-          array_push($genres, $genre );
+
+      foreach ($artists as $artist) {
+        foreach ($artist->artistGenre as $genre) {
+          $genres[] = $genre;
         }
       }
       return array_unique($genres);
