@@ -23,6 +23,17 @@ return [
     'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
     'modules' => [
         'my-module' => \modules\Module::class,
+        'daniel-module' => [
+            'class' => \modules\danielmodule\DanielModule::class,
+            'components' => [
+                'event' => [
+                    'class' => 'modules\danielmodule\services\Event',
+                ],
+            ],
+        ],
     ],
+    'bootstrap' => ['daniel-module'],
     //'bootstrap' => ['my-module'],
 ];
+
+

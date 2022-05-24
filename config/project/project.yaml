@@ -1,4 +1,4 @@
-dateModified: 1653313002
+dateModified: 1653320527
 email:
   fromEmail: danielsaso@gmail.com
   fromName: Dan-macbook
@@ -41,37 +41,40 @@ fs:
     url: '@web/assets/venue'
 meta:
   __names__:
-    0f820537-ee5c-4092-bef4-d779c88c7abe: event-date # event-date
-    3a8fd138-ba51-4809-a6a9-0631219a8863: artist-bio # artist-bio
+    0f820537-ee5c-4092-bef4-d779c88c7abe: 'Event date' # Event date
+    3a8fd138-ba51-4809-a6a9-0631219a8863: 'Artist bio' # Artist bio
     3b9f5fa6-7bce-44c9-b4ce-c9e19ecb14b3: Venue # Venue
     3c60082e-c3d2-4357-b88a-e9f187efede6: Venue # Venue
     3dcf0e1c-776e-49f5-adf8-c81fc3071c1c: 'Global Fields' # Global Fields
     3e54d30c-8ad9-4386-9f8e-b5e7f34ba7f9: Blog # Blog
-    4b6cae89-ceb5-414a-9fdc-da3a62bf3b57: text # text
-    5b3eb088-92c1-4955-ad23-90c971a631d1: venue-image # venue-image
+    4b6cae89-ceb5-414a-9fdc-da3a62bf3b57: Text # Text
+    5b3eb088-92c1-4955-ad23-90c971a631d1: 'Venue Image' # Venue Image
     5bc3f0c4-aab4-48e3-9ec6-b780afc462df: Common # Common
-    5eb3e4f5-1514-4461-a1cd-c39eea0754de: event-banner # event-banner
+    5eb3e4f5-1514-4461-a1cd-c39eea0754de: 'Event banner' # Event banner
     6d7ea6b2-856a-48a7-9abb-95e376d8fdb8: Event # Event
     6ec664e3-5ae7-477f-afc3-fcbfe948005f: 'Site Information' # Site Information
     7cd2537c-0aa7-46de-87fe-0785241331ec: Image # Image
     7e1b327d-1b82-4766-969b-7d69e4f26200: Text # Text
     8c2bcebe-cb52-4e17-9188-b8800184f24a: 'Event Categories' # Event Categories
     8e418cb9-3bae-4827-bcf4-b806c3689a4b: General # General
-    9a8e25a0-afac-43f2-a060-f9fc91a4be42: event-summary # event-summary
+    9a8e25a0-afac-43f2-a060-f9fc91a4be42: 'Event summary' # Event summary
     9cd50125-888c-4b4a-87ba-ca3b9fe3e749: About # About
     9dfd6e01-d3ee-4b8e-95b4-0de2f24ff887: About # About
     13f85ac3-69bb-4927-b83d-6a808050c78a: Blog # Blog
     15e24cdd-ce29-4b9f-a362-3390280c25c5: blog-nl # blog-nl
-    25f3fb8a-6c53-495c-a1b4-ed523bdaeeef: artist-picture # artist-picture
-    46edbbce-a4fe-4186-9aee-095f1966f25c: artist-name # artist-name
-    59e52432-a2e7-4dab-b23d-68d11b956923: event-price # event-price
+    25f3fb8a-6c53-495c-a1b4-ed523bdaeeef: 'Artist picture' # Artist picture
+    46edbbce-a4fe-4186-9aee-095f1966f25c: 'Artist name' # Artist name
+    55fe070b-d0ca-4544-8ddd-3e97b79fdf21: 'Event venue' # Event venue
+    59e52432-a2e7-4dab-b23d-68d11b956923: 'Event price' # Event price
     70ed828a-6293-4db0-96dd-9d4ef04c751d: Event # Event
     80dd8962-0161-4303-ba5e-bedbdc712424: 'Post Categories' # Post Categories
     82b02c11-9d4b-4050-9a73-4310ca7c1dda: event-description # event-description
     124f479f-4c9f-4f89-934a-423e6702fe15: 'About Image' # About Image
     559fbead-f85f-4774-af3d-3b5dc613d934: Event # Event
+    827f155a-b0ed-4181-b6ec-27756736f698: 'Event artists' # Event artists
     963c261f-a716-494f-965e-476b5a9e6705: 'Post Content' # Post Content
-    2181e048-5deb-45c3-b554-b6d31d32540e: venue-address # venue-address
+    0969cec7-a047-43d3-aca7-3e0fa2e778ec: 'Artist genre' # Artist genre
+    2181e048-5deb-45c3-b554-b6d31d32540e: 'Venue Address' # Venue Address
     2935fce3-fe40-480c-8ad2-d1203951d4a7: 'Venue Fields' # Venue Fields
     4133a09f-5606-4193-8ecf-413e04a8ffba: description-text # description-text
     5130a23c-2daf-4b1e-a9e8-af868f4e0e90: 'Feature Image' # Feature Image
@@ -79,19 +82,19 @@ meta:
     5868b6e2-0843-4f92-a1f3-16415121e6db: blog-en # blog-en
     35377b3b-3225-4e98-99c7-1c66700fbcbe: Blog-site # Blog-site
     135348b8-e622-4be3-a634-8b218bc6cbfb: Artist # Artist
-    477456b6-a0ca-4c3a-ac4c-5ceefcc8c2f4: event-name # event-name
+    477456b6-a0ca-4c3a-ac4c-5ceefcc8c2f4: 'Event name' # Event name
     18543997-cb5d-4a34-bc3d-f6c2aece0185: 'Event fields' # Event fields
-    a36c7a9d-8bfe-4480-9f1a-6610a743ef75: venue-name # venue-name
-    b1a2c388-bc5b-4c69-a294-e1c73b7d3de0: image # image
+    a36c7a9d-8bfe-4480-9f1a-6610a743ef75: 'Venue Name' # Venue Name
+    b1a2c388-bc5b-4c69-a294-e1c73b7d3de0: Image # Image
     b5c14382-f3aa-40b7-9356-c91a2b6805d6: description-image # description-image
     b8832bf5-cf9b-4224-bf44-bdc3723bd3b5: 'Site Description' # Site Description
-    b35598d3-c590-45e3-8c21-0cb78dd9dfd7: event-categories # event-categories
+    b35598d3-c590-45e3-8c21-0cb78dd9dfd7: 'Event categories' # Event categories
     ba7f9ec4-676a-417b-a110-e00cde4b5b69: 'Blog Post Fields' # Blog Post Fields
-    bdea7dca-a6f4-4075-9812-d3a964bb2c59: event-description # event-description
-    c886cf25-9e56-41b1-a415-66e8d1f9e437: bio-text # bio-text
+    bdea7dca-a6f4-4075-9812-d3a964bb2c59: 'Event description' # Event description
+    c886cf25-9e56-41b1-a415-66e8d1f9e437: 'Bio text' # Bio text
     d3f5ed75-a04a-4ac5-b281-1dcb82bdf1ed: Summary # Summary
     d8e99ab1-a533-416d-b4db-94a295d205d0: Blog # Blog
-    d6241f1b-01f6-4e44-813b-b699f6f0607d: venue # venue-title
+    d6241f1b-01f6-4e44-813b-b699f6f0607d: venue # venue
     d7369301-3bb7-4cef-aeaa-7e34fc1ddd67: 'Blog Categories' # Blog Categories
     ddf3a511-6ee4-4a66-b6ac-b8b1f0b1ab83: Image # Image
     e05e52a9-4cfe-4f87-b6dd-b987efdeb6c9: 'Artist Fields' # Artist Fields
@@ -100,8 +103,13 @@ meta:
     edde5f30-ef1d-4b91-a16a-b2e6ed53be94: Text # Text
     f5a4fc28-3417-4fbb-a218-f43d6b1ef7b4: Artist # Artist
     f5f1c4e5-f1d3-4a47-bd1c-fb5fa8ca2d52: Artist # Artist
-    f133a168-da01-4a9e-905e-f6c7d7337979: artist-bio-image # artist-bio-image
+    f133a168-da01-4a9e-905e-f6c7d7337979: 'Artist bio image' # Artist bio image
+    fbf46761-d4a7-4c1a-bbdd-2a3fef63f016: 'Music genres' # Music genres
 plugins:
+  cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   redactor:
     edition: standard
     enabled: true

@@ -2,8 +2,8 @@ columnSuffix: avzclidn
 contentColumnType: text
 fieldGroup: 2935fce3-fe40-480c-8ad2-d1203951d4a7 # Venue Fields
 handle: venueAddress
-instructions: 'Address of the venue'
-name: venue-address
+instructions: 'Venue Address'
+name: 'Venue Address'
 searchable: false
 settings:
   byteLimit: null

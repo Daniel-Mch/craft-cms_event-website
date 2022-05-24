@@ -3,7 +3,7 @@ contentColumnType: string
 fieldGroup: 18543997-cb5d-4a34-bc3d-f6c2aece0185 # Event fields
 handle: eventBanner
 instructions: 'Add a banner to your event.'
-name: event-banner
+name: 'Event banner'
 searchable: false
 settings:
   allowSelfRelations: false

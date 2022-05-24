@@ -28,7 +28,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 477456b6-a0ca-4c3a-ac4c-5ceefcc8c2f4 # event-name
+            fieldUid: 477456b6-a0ca-4c3a-ac4c-5ceefcc8c2f4 # Event name
             instructions: null
             label: null
             required: false
@@ -38,7 +38,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 5eb3e4f5-1514-4461-a1cd-c39eea0754de # event-banner
+            fieldUid: 5eb3e4f5-1514-4461-a1cd-c39eea0754de # Event banner
             instructions: null
             label: null
             required: false
@@ -48,7 +48,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 9a8e25a0-afac-43f2-a060-f9fc91a4be42 # event-summary
+            fieldUid: 9a8e25a0-afac-43f2-a060-f9fc91a4be42 # Event summary
             instructions: null
             label: null
             required: false
@@ -58,7 +58,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: bdea7dca-a6f4-4075-9812-d3a964bb2c59 # event-description
+            fieldUid: bdea7dca-a6f4-4075-9812-d3a964bb2c59 # Event description
             instructions: null
             label: null
             required: false
@@ -68,7 +68,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 0f820537-ee5c-4092-bef4-d779c88c7abe # event-date
+            fieldUid: 0f820537-ee5c-4092-bef4-d779c88c7abe # Event date
             instructions: null
             label: null
             required: false
@@ -78,7 +78,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 59e52432-a2e7-4dab-b23d-68d11b956923 # event-price
+            fieldUid: 59e52432-a2e7-4dab-b23d-68d11b956923 # Event price
             instructions: null
             label: null
             required: false
@@ -88,7 +88,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: b35598d3-c590-45e3-8c21-0cb78dd9dfd7 # event-categories
+            fieldUid: b35598d3-c590-45e3-8c21-0cb78dd9dfd7 # Event categories
             instructions: null
             label: null
             required: false
@@ -97,36 +97,32 @@ fieldLayouts:
             uid: 07656515-56e5-407c-9b52-ece4c4a8b14b
             warning: null
             width: 100
+          -
+            fieldUid: 55fe070b-d0ca-4544-8ddd-3e97b79fdf21 # Event venue
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 264dd473-4836-4036-a0e1-e32e7858487a
+            warning: null
+            width: 100
         name: Content
         uid: da2dfb90-93ca-4324-984a-82c44e41469a
       -
         elements:
           -
-            fieldUid: a36c7a9d-8bfe-4480-9f1a-6610a743ef75 # venue-name
+            fieldUid: 827f155a-b0ed-4181-b6ec-27756736f698 # Event artists
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c4bfcdc9-5c44-4bc0-9eeb-0366e642d7e9
-            warning: null
-            width: 100
-        name: Venue
-        uid: 096791bb-b2a4-4b21-a2a6-a391493387b1
-      -
-        elements:
-          -
-            fieldUid: 46edbbce-a4fe-4186-9aee-095f1966f25c # artist-name
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: c55e859f-6e2c-4edf-9834-77d5c6ea07ee
+            uid: e7cea210-7c7b-481a-828d-375f1eae8663
             warning: null
             width: 100
         name: Artists
-        uid: bc0f2181-3f86-4ec8-ad49-38c5d9437ec3
+        uid: 97ae49dd-7ac9-40db-ad71-c7741999d737
 handle: event
 hasTitleField: true
 name: Event

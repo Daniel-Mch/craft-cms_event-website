@@ -1,11 +1,11 @@
-field: 3a8fd138-ba51-4809-a6a9-0631219a8863 # artist-bio
+field: 3a8fd138-ba51-4809-a6a9-0631219a8863 # Artist bio
 fieldLayouts:
   d3efcaf0-cbe5-466f-810d-980e2e96ce5d:
     tabs:
       -
         elements:
           -
-            fieldUid: b1a2c388-bc5b-4c69-a294-e1c73b7d3de0 # image
+            fieldUid: b1a2c388-bc5b-4c69-a294-e1c73b7d3de0 # Image
             instructions: null
             label: null
             required: false
@@ -17,13 +17,13 @@ fieldLayouts:
         name: Content
         uid: 91b7d107-9bba-4c7e-b9d1-82f8ad663f5e
 fields:
-  b1a2c388-bc5b-4c69-a294-e1c73b7d3de0: # image
+  b1a2c388-bc5b-4c69-a294-e1c73b7d3de0: # Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: image
     instructions: 'Supportive images for the artist''s bio. '
-    name: image
+    name: Image
     searchable: false
     settings:
       allowSelfRelations: false
@@ -66,5 +66,5 @@ fields:
     translationMethod: site
     type: craft\fields\Assets
 handle: artistBioImage
-name: artist-bio-image
+name: 'Artist bio image'
 sortOrder: 2

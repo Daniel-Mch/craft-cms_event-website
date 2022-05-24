@@ -3,7 +3,7 @@ contentColumnType: string(160)
 fieldGroup: e05e52a9-4cfe-4f87-b6dd-b987efdeb6c9 # Artist Fields
 handle: artistName
 instructions: 'Artist name'
-name: artist-name
+name: 'Artist name'
 searchable: true
 settings:
   byteLimit: null

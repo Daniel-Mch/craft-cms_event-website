@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  d8dcc1a0-25ea-4ed0-97f2-5bdac92f5ad9:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: c71b2e54-18be-4d08-81af-9cff3fcedb6b
+            warning: null
+            width: 100
+        name: Content
+        uid: 641be798-1a12-4d99-86e4-928dfef3f0e6
+handle: musicGenres
+name: 'Music genres'
+siteSettings:
+  15e24cdd-ce29-4b9f-a362-3390280c25c5: # blog-nl
+    hasUrls: false
+    template: null
+    uriFormat: null
+  5868b6e2-0843-4f92-a1f3-16415121e6db: # blog-en
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: 1
+  uid: 2f174380-e687-4867-a169-57cac24f4d5c

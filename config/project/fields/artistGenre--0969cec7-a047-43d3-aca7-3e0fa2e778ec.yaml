@@ -1,0 +1,25 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: e05e52a9-4cfe-4f87-b6dd-b987efdeb6c9 # Artist Fields
+handle: artistGenre
+instructions: 'Choose the genre(s) of the artist.'
+name: 'Artist genre'
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: 5
+  localizeRelations: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showSiteMenu: false
+  source: 'group:fbf46761-d4a7-4c1a-bbdd-2a3fef63f016' # Music genres
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

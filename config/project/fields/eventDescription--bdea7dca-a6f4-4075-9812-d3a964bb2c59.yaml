@@ -3,7 +3,7 @@ contentColumnType: string
 fieldGroup: 18543997-cb5d-4a34-bc3d-f6c2aece0185 # Event fields
 handle: eventDescription
 instructions: 'Write a detailed description of your event.'
-name: event-description
+name: 'Event description'
 searchable: false
 settings:
   contentTable: '{{%matrixcontent_eventdescription}}'

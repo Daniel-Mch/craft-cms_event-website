@@ -28,7 +28,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: a36c7a9d-8bfe-4480-9f1a-6610a743ef75 # venue-name
+            fieldUid: a36c7a9d-8bfe-4480-9f1a-6610a743ef75 # Venue Name
             instructions: null
             label: null
             required: false
@@ -38,7 +38,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 2181e048-5deb-45c3-b554-b6d31d32540e # venue-address
+            fieldUid: 2181e048-5deb-45c3-b554-b6d31d32540e # Venue Address
             instructions: null
             label: null
             required: false
@@ -48,7 +48,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 5b3eb088-92c1-4955-ad23-90c971a631d1 # venue-image
+            fieldUid: 5b3eb088-92c1-4955-ad23-90c971a631d1 # Venue Image
             instructions: null
             label: null
             required: false

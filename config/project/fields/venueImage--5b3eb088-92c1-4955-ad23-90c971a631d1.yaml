@@ -3,7 +3,7 @@ contentColumnType: string
 fieldGroup: 2935fce3-fe40-480c-8ad2-d1203951d4a7 # Venue Fields
 handle: venueImage
 instructions: 'Cover picture of the venue'
-name: venue-image
+name: 'Venue Image'
 searchable: false
 settings:
   allowSelfRelations: false

@@ -3,7 +3,7 @@ contentColumnType: string(160)
 fieldGroup: 2935fce3-fe40-480c-8ad2-d1203951d4a7 # Venue Fields
 handle: venueName
 instructions: 'Name fo the venue'
-name: venue-name
+name: 'Venue Name'
 searchable: true
 settings:
   byteLimit: null

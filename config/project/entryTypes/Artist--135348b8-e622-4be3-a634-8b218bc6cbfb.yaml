@@ -28,7 +28,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 46edbbce-a4fe-4186-9aee-095f1966f25c # artist-name
+            fieldUid: 46edbbce-a4fe-4186-9aee-095f1966f25c # Artist name
             instructions: null
             label: null
             required: false
@@ -38,7 +38,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 3a8fd138-ba51-4809-a6a9-0631219a8863 # artist-bio
+            fieldUid: 3a8fd138-ba51-4809-a6a9-0631219a8863 # Artist bio
             instructions: null
             label: null
             required: false
@@ -48,13 +48,23 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 25f3fb8a-6c53-495c-a1b4-ed523bdaeeef # artist-picture
+            fieldUid: 25f3fb8a-6c53-495c-a1b4-ed523bdaeeef # Artist picture
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 11ee7fce-c96e-4570-9aff-1ab5c770cb99
+            warning: null
+            width: 100
+          -
+            fieldUid: 0969cec7-a047-43d3-aca7-3e0fa2e778ec # Artist genre
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1e9ba990-927f-442a-ae84-d37af2486941
             warning: null
             width: 100
         name: Content

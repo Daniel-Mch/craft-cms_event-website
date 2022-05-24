@@ -3,7 +3,7 @@ contentColumnType: string
 fieldGroup: 18543997-cb5d-4a34-bc3d-f6c2aece0185 # Event fields
 handle: eventCategories
 instructions: 'Choose categories for your event'
-name: event-categories
+name: 'Event categories'
 searchable: true
 settings:
   allowLimit: false
